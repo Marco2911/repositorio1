@@ -1,0 +1,344 @@
+/*font*/
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antonio:wght@100&family=Oswald:wght@300&family=Staatliches&display=swap");
+* {
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  display: flex;
+  padding: 10px 30px;
+  justify-content: space-between;
+  position: sticky;
+  top: 20px; }
+
+.header__logo--margin {
+  margin: -20px; }
+
+#sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 1; }
+
+.header-img {
+  width: 100%;
+  height: 150px;
+  background: url(file:///C:/Users/mcepp/OneDrive/Desktop/Encore_Productora_Ceppi/img/fondito2.jpg);
+  background-size: cover; }
+
+/*Tabla*/
+table {
+  border: 3px solid; }
+
+th {
+  background-color: #d3a0eb;
+  border: 1px solid; }
+
+tr, td {
+  background-color: #fcb1d7;
+  border: 1px solid; }
+
+/*Fin de tabla*/
+body {
+  background: url(file:///C:/Users/mcepp/OneDrive/Desktop/Encore_Productora_Ceppi/img/fondoclaro.jpg);
+  background-size: cover;
+  font-family: "Antonio"; }
+
+p {
+  color: #000000; }
+
+.nav__searchbar {
+  text-align: right;
+  position: absolute top right;
+  margin-top: 50px; }
+
+/*Nav*/
+nav {
+  margin-top: 55px;
+  grid-area: nav; }
+
+ul li {
+  display: inline; }
+
+li a {
+  text-decoration: none;
+  color: #000000; }
+
+.nav__text--center {
+  text-align: center;
+  word-spacing: 55px;
+  text-decoration: none;
+  font-size: 1.5rem; }
+
+/*Main*/
+h1{
+  text-align: center;
+}
+
+.main__fotos {
+  margin: 10px 10px 10px 10px; }
+
+.main__venues {
+  color: #000000;
+  text-align: center;
+  font-family: "Abril Fatface"; }
+
+.padre-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.single-img {
+  padding: 0 20px 20px; }
+
+.main__titulo {
+  color: #000000;
+  text-decoration: underline; }
+
+.linear-gradient {
+  background: #ace4f0;
+  background: linear-gradient(90deg, #ace4f0 0%, #efb3fc 41%, #fa5ecd 100%); }
+
+.separacion {
+  letter-spacing: 5px; }
+
+/*Footer*/
+.newsletter {
+  font-family: Staatliches;
+  color: #3b5360;
+  text-transform: uppercase; }
+
+.logo-mas {
+  font-family: Staatliches;
+  color: grey;
+  text-align: center;
+  font-weight: bold; }
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%; }
+
+.footer {
+  background: #fa637b;
+  background: linear-gradient(180deg, #fa637b 16%, #fb7c90 50%, #fa637b 84%); }
+
+.footer__redes {
+  font-family: Staatliches;
+  color: #3b5360;
+  text-align: right;
+  font-size: 2rem; }
+
+/*Shows*/
+.white-text {
+  color: #ffffff;
+  list-style-position: inside; }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.padre-flex1 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center; }
+
+/*News*/
+.column {
+  flex: 33.33%;
+  padding: 5px; }
+
+.main__news {
+  text-align: center;
+  font-family: "Abril Fatface"; }
+
+.scale:hover {
+  transform: scale(1.1, 1.1);
+  transition: transform 1s;
+  cursor: pointer; }
+
+.padre-flex2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; }
+
+/*Venues*/
+.transform:hover {
+  transform: translate(15px, 15px);
+  transition: transform 1s;
+  cursor: pointer; }
+
+.main__venues {
+  color: #000000;
+  text-align: center;
+  font-family: "Abril Fatface"; }
+
+/*Contacto*/
+.contacto {
+  color: #000000; }
+
+.formulario {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Abril Fatface"; }
+
+.form-center {
+  text-align: center;
+  line-height: 25px; }
+
+.font-italic {
+  font-style: italic; }
+
+/*Grids*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.6fr 1.8fr 0.6fr;
+  grid-gap: 0px 0px;
+  grid-template-areas: "logo nav nav search"
+ "body body body body"
+ "footer footer footer footer"; }
+
+.body {
+  grid-area: body; }
+
+.footer {
+  grid-area: footer; }
+
+.logo {
+  grid-area: logo; }
+
+.nav {
+  grid-area: nav; }
+
+.search {
+  grid-area: search; }
+
+.header {
+  grid-area: header; }
+
+.body {
+  grid-area: body; }
+
+.footer {
+  grid-area: footer; }
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.8fr 1.2fr 1.2fr 0.8fr;
+  grid-gap: 0px 0px;
+  grid-template-areas: "logo nav nav search"
+ ". roxy roxy ."
+ ". groove groove ."
+ "footer footer footer footer"; }
+
+.logo {
+  grid-area: logo; }
+
+.nav {
+  grid-area: nav; }
+
+.search {
+  grid-area: search; }
+
+.roxy {
+  grid-area: roxy; }
+
+.groove {
+  grid-area: groove; }
+
+.footer {
+  grid-area: footer; }
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.6fr 1.8fr 0.6fr;
+  grid-gap: 0px 0px;
+  grid-template-areas: "logo nav nav search"
+ "news news news news"
+ "footer footer footer footer"; }
+
+.logo {
+  grid-area: logo; }
+
+.nav {
+  grid-area: nav; }
+
+.search {
+  grid-area: search; }
+
+.news {
+  grid-area: news; }
+
+.footer {
+  grid-area: footer; }
+
+/*Mobile*/
+@media only screen and (max-width: 700px) {
+  .header {
+    float: none;
+    width: 98%;
+    padding: 1%;
+    text-align: right;
+    text-indent: 15px; }
+  .padre-flex {
+    float: none;
+    width: 98%;
+    padding: 1%; }
+  footer {
+    display: none; }
+  .searchbar {
+    display: none; }
+  .text-center {
+    text-align: right;
+    word-spacing: 5px;
+    text-decoration: none;
+    font-size: 0.9rem; }
+  .img {
+    max-width: 100%;
+    height: auto; } }
+
+@media only screen and (min-width: 764px) {
+  .header {
+    float: none;
+    width: 98%;
+    padding: 1%;
+    text-align: right;
+    text-indent: 15px; }
+  .padre-flex {
+    float: none;
+    width: 98%;
+    padding: 1%; }
+  .img {
+    max-width: 100%;
+    height: auto; }
+  .row1 {
+    display: flex;
+    margin-left: 70px; } }
+
+@media only screen and (max-width: 1020px) {
+  .header {
+    float: none;
+    width: 98%;
+    padding: 1%;
+    text-align: right;
+    text-indent: 15px; }
+  .padre-flex {
+    float: none;
+    width: 98%;
+    padding: 1%; }
+  .img {
+    max-width: 100%;
+    height: auto; }
+  .row1 {
+    display: flex;
+    margin-left: 250px; } }
